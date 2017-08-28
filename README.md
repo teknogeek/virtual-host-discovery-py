@@ -17,6 +17,7 @@ Here's a list of all available options:
  - **--port**: when the web server isn't running on port 80.
  - **--wordlist**: specify an alternative location for the wordlist.
  - **--ssl**: specify whether to connect with SSL.
+ - **--output**: specify a file to output results to.
 
 ## Wordlist
 There's a default, small, wordlist in this repository. To use your own wordlist, use the **--wordlist** option. **%s** will be replaced with the given **--host** header in every line of the wordlist file.
